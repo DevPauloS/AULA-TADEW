@@ -1,0 +1,108 @@
+*{
+    background-color: #000000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: auto;
+    height: auto;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em 5em;   
+    gap: 2em;
+    margin: 1em 1.5em;    
+    list-style: none;  
+    text-decoration: none; 
+}
+#logo-texto{
+    text-decoration: none;
+    color: #fff;    
+    font-size: 1.3em;
+}
+
+#nav{
+    display: flex;
+    gap: 2em;    
+}
+#nav-tit1, #nav-tit2, #nav-tit3{    
+    text-decoration: none;   
+}
+.t1,.t2,.t3{
+    color: #df1010;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+#tit-login{
+    color: #df1010;    
+    font-weight: 700;
+    font-size: 2.7em;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+    gap: 2em;  
+    width: 30em;
+    height: 30em;
+    margin: 15em auto;
+}
+#caixas{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: #fff;
+    align-items: flex-start;
+   
+}
+#pass-box,#nome-box{
+    background-color: #fff;
+    color: #000000;
+    font-size: 1.2em;
+   
+}
+#nome, #senha{
+    color: #df1010;  
+}
+#b-enviar1{
+    background-color: #df1010;
+    color: #000000;
+    font-weight: 800;
+    width: 9em;
+    height: 3.4em;
+    align-items: center;
+    font-size: 1em;    
+    margin: 3em auto;
+    margin-left: 6em;
+    cursor: pointer;
+}
+#b-enviar2{
+    background-color: #df1010;
+    color: #000000;
+    font-weight: 800;
+    width: 9em;
+    height: 3.4em;
+    align-items: center;
+    font-size: 1em;    
+    margin: 3em auto;
+    margin-left: 5em;
+    cursor: pointer;
+}
+#esqueci{
+    font-size: 1.1em;
+    color: #df1010;
+    margin-top: 2em;
+    margin-left: 12em;
+    text-decoration: none;
+}
+.alinha{
+    justify-items: center;
+}
